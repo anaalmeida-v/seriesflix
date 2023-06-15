@@ -1,0 +1,84 @@
+*{
+    list-style:none;
+    font-family:OCR A Std, monospace;
+  }
+  a{
+    text-decoration: none;
+  }
+  .navbar{
+    font-family: OCR A Std, monospace;
+  }
+  
+  .sla{
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  
+  .linksnav a{
+    color: #ccc;
+    padding-right:40px;
+  }
+  
+  .linksnav a:hover{
+    color:#424e54;
+  }
+  .redes{
+    color:#929fa3;
+  }
+  .redes h2{
+    float:left;
+  }
+  .redes svg{
+    margin-left:10px;
+  }
+  .rede1, .rede2{
+    float:right;
+  }
+  
+  .paginainicial{
+    background-image: url(https://cdn.atomix.vg/wp-content/uploads/2021/12/neflix-.jpg);
+    width:100%;
+    opacity:0.7;
+    padding-top:30px;
+    height:300px;
+  }
+  
+  .paginainicial h1{
+    font-weight:600;
+    text-align:center;
+    display: block;
+    position: relative;
+    background-color: white;
+    z-index: 1;
+  }
+  
+  .containersite{
+    background:#888586;
+  }
+  
+  .containerseries{
+    display:block;
+  }
+  
+  .containerseries img, p, h2{
+    text-align:center;  
+  }
+  
+  .containerseries img{
+    width:100%;
+    height:100%; 
+    border-radius:20px;
+    margin-top:20%;
+  }
+  
+  .containerseries p{
+    font-size:14px;
+  }
+  
+  .series{
+    display:block;
+  }
+  
